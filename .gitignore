@@ -23,3 +23,7 @@ JLinkSettings.ini
 
 # Keil 个人窗口布局（文件名尾部为 Windows 用户名，如 *.uvguix.weidongshan）
 *.uvguix.*
+
+# Keil RTE 本机生成（uVision 打开/编译工程时由 Pack 解析产生）
+MDK-ARM/RTE/Device/
+MDK-ARM/RTE/**/RTE_Components.h
