@@ -1,0 +1,25 @@
+# Keil / MDK-ARM 编译产物
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.map
+*.lst
+*.dep
+*.htm
+*.lnp
+*.iex
+*.Bak
+*.scvd
+
+# Keil 输出目录
+MDK-ARM/01_freertos_template/
+
+# Keil / J-Link 调试本地文件
+JLinkLog.txt
+JLinkSettings.ini
+*.Administrator
+
+# Keil 个人窗口布局（文件名尾部为 Windows 用户名，如 *.uvguix.weidongshan）
+*.uvguix.*
